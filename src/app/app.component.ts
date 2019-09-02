@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+
+  list = [{
+    name: 'john',
+  }, {
+    name: 'peter',
+  }, {
+    name: 'aric',
+  }, {
+    name: 'johnson',
+  }];
   title = 'app-ng-for';
 }

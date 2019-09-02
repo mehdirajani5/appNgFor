@@ -1,0 +1,19 @@
+.app-container {
+  display: flex;
+  height: 100%;
+  padding: 100px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__inner-container {
+    width: 50%;
+
+    &__item {
+      padding: 20px 10px;
+      border: 1px solid #9c9b9bcc;
+      margin-bottom: 16px;
+      border-radius: 20px;
+    }
+  }
+}
